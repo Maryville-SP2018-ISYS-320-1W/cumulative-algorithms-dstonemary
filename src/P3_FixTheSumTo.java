@@ -6,7 +6,8 @@
 
 /*
 3. What problems did you identify in the sumTo method below?
-
+	The problem was in method "sumTo" which had not return statement of sum of 5 numbers and second problem was the variable sum 
+	was initialized locally inside loop control statement instead method.   
 
 */
 
@@ -19,10 +20,11 @@ public class P3_FixTheSumTo {
 	}
 	
 	public static int sumTo(int n) { 
-	    for (int i = 1; i <= n; i++) {
-	        int sum = 0; 
+		int sum = 0; 
+	    for (int i = 1; i <= n; i++) {	        
 	        sum += i;
 	    }
+	    return sum;
 	}
 
 }

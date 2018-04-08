@@ -12,12 +12,18 @@ import java.util.Scanner;
 
 	| ITERATION 		 | VARIABLE NAME	 | VARIABLE NAME	 | VARIABLE NAME	 |
 	| initialization	 |				 |				 |				 | 
-	| 1				 |				 |				 |				 |
+	| 				 |		nextInputValue		 |		accumulatorVariable		 |				 |
+	| 		1		 |				4            |			4	                 |				 |
+	| 		2		 |				3            |			3	                 |				 |
+	| 		3		 |				5            |			3	                 |				 |
+	| 		4		 |				2            |			2	                 |				 |
+	| 		5		 |				6            |			2	                 |				 |
+	The accumulated value is: 2 
 */
 
 /*
 2. What is does this algorithm accomplish? (i.e., what does it compute or find?)
-
+	This algorithm finds a lowest numbers from user input.
 
 */
 
